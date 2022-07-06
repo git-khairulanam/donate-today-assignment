@@ -41,13 +41,13 @@ body{
   margin-top: 100px;
 }
 
-.donate-header{
+.common-header{
   text-align: center;
   font-size: 40px;
   font-weight: bolder;
 }
 
-.donate-paragraph{
+.common-paragraph{
   text-align: center;
   margin-bottom: 40px;
 }
@@ -77,8 +77,71 @@ body{
 #other-amount{
   border-style: none;
   border-bottom: 1px solid grey;
-  margin: 1.2% 40%;
+  margin: 1.2% 40% 1.2% 41%;
   padding: 10px 25px 10px 35px;
 }
 
+/**-----donate plan------**/
+.donate-plan{
+  margin-top: 80px;
+}
 
+.flexible-container{
+  display: flex;
+}
+
+.common-item{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding: 30px 10px;
+  border-radius: 5px;
+}
+
+#item-one{
+  background-color: rgb(75, 119, 119);
+}
+
+#item-two{
+  background-color: thistle;
+}
+
+#item-three{
+  background-color: blanchedalmond;
+}
+
+/**--contribute part--**/
+
+.contribute-one{
+  margin-top: 70px;
+}
+
+.container{
+  display: flex;
+}
+
+.container-item{
+  width: 50%;
+  margin-left: 10%;
+}
+
+.container-item h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contribute-banner{
+  width: 80%;
+}
+
+.how-to-button{
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: tomato;
+  padding: 5px 15px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.contribute-two{
+  margin-top: 80px;
+}
